@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://kit.fontawesome.com/554cb21014.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets//css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <img src="assets/img/img1.png" data-speed="4.2" class="layer"> 
+        <img src="assets/img/img2.png" data-speed="5" class="layer"> 
+        <img src="assets/img/img3.png" data-speed="5" class="layer"> 
+        <img src="assets/img/img4.png" data-speed="4" class="layer"> 
+        <img src="assets/img/img5.png" data-speed="3" class="layer"> 
+        <img src="assets/img/img6.png" data-speed="5" class="layer"> 
+        <img src="assets/img/img7.png" data-speed="4" class="layer"> 
+        <img src="assets/img/img8.png" data-speed="3" class="layer"> 
+        <img src="assets/img/img9.png" data-speed="5" class="layer"> 
+        <h1><a href="2017.html" >MY PHOTOGRAPHY JOURNEY</a></h1>
+        <footer class="footer"> 
+            <div class= site-intro-footer> 
+                THIS WEBSITE IS A COLLECTION OF MY JOURNEY IN PHOTOGRAPHY. DESIGNED AND CODED BY KEVIN CHANG. 
+            </div>
+    </section> 
+    <script type = "text/javascript"> 
+        document.addEventListener("mousemove" , parallax); 
+        function parallax(e) { 
+            this.querySelectorAll('.layer').forEach(layer => { 
+                const speed = layer.getAttribute('data-speed')
+
+                const x = (window.innerWidth - e.pageX*speed)/100
+                const y = (window.innerHeight - e.pageY*speed)/100
+
+                layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+             })
+
+        }
+    </script> 
+    </script>
+
+</body>
+</html>

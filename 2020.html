@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2019</title>
+    <script src="https://kit.fontawesome.com/554cb21014.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/body.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <a class="logo" href="index.html">MY PHOTO JOURNEY</a> 
+        <nav> 
+            <ul class="nav-links"> 
+                <li><a href="2017.html">2017</a></li>
+                <li><a href="2018.html">2018</a></li>
+                <li><a href="2019.html">2019</a></li>
+                <li class="current-page"><a href="2020.html">2020</a></li>
+            </ul>
+        </nav>
+        <div>
+            <input type="checkbox"
+        class="checkbox" id = "checkbox"> 
+            <label for="checkbox"
+        class="label"> 
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+    </header>
+
+    <div class="content"> 
+        <section> 
+        <div class="landing"> 
+            <div class="landing-text">
+                <h2>2020</h2>
+            </div>
+        </div>
+        
+        <div class="body-1-2020"> 
+            <div class="body1-text-2020"> 
+                <h4>MARCH 2020</h4>
+                <p>
+                    <br>
+                    Spring semester got cut short due to coronavirus and I went back home to SoCal. 
+                    However, I was able to get some shots before I left Berkeley.
+                </p>
+            </div>
+            <div class="body1-img-2020"> 
+                <img class="hannah-1 rellax" data-rellax-speed="3" src="assets/img/hannah-1.jpg">
+                <img class="ruby-1" src="assets/img/ruby-1.jpg">
+            </div>
+        </div>
+
+        <div class="body-2-2020"> 
+            <div class="body2-img-2020"> 
+                <img class="sand-1" src="assets/img/sand-1.jpg">
+                <img class="sand-2" src="assets/img/sand-2.jpg">
+                <img class="sand-3" src="assets/img/sand-3.jpg">
+            </div>
+            <div class="body2-text-2020"> 
+                <h4>JUNE 2020</h4>
+                <p>
+                    <br>
+                    Went on a short road trip with friends to Salton Sea and Glamis Dunes. 
+                    <br>
+                    <br>
+                    Note to self: 
+                    <br>
+                    <br>
+                    Do not go on a photoshoot in 110° weather in the middle of the desert ever again.
+                </p>
+            </div>
+        </div>
+
+        <div class="body-3-2020"> 
+            <div class="body3-text-2020"> 
+                <h4>AUGUST 2020</h4>
+                <p>
+                    <br>
+                    Being at home was pretty boring and with shelter in place, it was difficult to take photos with friends.
+                    <br>
+                    <br>
+                    I decided to purchase some equiptment to make a makeshift studio in my garage at home to have some socially distanced photoshoots.
+                </p>
+            </div>
+            <div class="body3-img-2020"> 
+                <img class="studio-1" src="assets/img/studio-1.jpg">
+            </div>
+        </div>
+
+        <div class="body-4-2020"> 
+            <div class="body4-img-2020"> 
+                <img class="studio-2" src="assets/img/studio-2.jpg"> 
+            </div>
+            <div class="body4-img-2020"> 
+                <img class="studio-3" src="assets/img/studio-3.jpg"> 
+            </div>
+            <div class="body4-img-2020"> 
+                <img class="studio-4" src="assets/img/studio-4.jpg"> 
+        </div>
+
+        <div class="body-5-text-2020">
+            <p>
+                This year has definitely been a blur. It feels weird not being able to create as much as I used to, 
+                but I'm always grateful for everyone that helped me get to this point.
+                <br>
+                <br>
+                I'm very much excited to see where my photography will be in 2021. 
+            </p>
+        </section>
+    </div> 
+
+    <div class="footer"> 
+        <div class="prev-year"> 
+            <img class = "left-arrow" src="assets/img/left-arrow.svg"> 
+            <div class="prev-year-text"><a href="2019.html"><p>2019</p></div>
+        </div>
+        <div class="next-year"> 
+            <div class="next-year-text"></div>
+            <img class = "right-arrow"> 
+        </div>
+    </div>
+    
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.7.1/rellax.min.js"></script>
+
+    <script> 
+        const checkbox = document.getElementById('checkbox'); 
+
+        checkbox.addEventListener('change', () => { 
+            document.body.classList.toggle('dark'); 
+        }); 
+
+        var rellax = new Rellax('.rellax'); 
+    </script> 
+</body>
+</html>
