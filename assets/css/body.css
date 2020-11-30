@@ -330,31 +330,33 @@ section {
     left: 200px; 
 }
 
-/*.ucb-2 { 
+.ucb-2 { 
     position: relative; 
     right: 380px; 
     top: 200px; 
 }
-*/
 
-.ucb-2 { 
+
+/*.ucb-2 { 
     position: relative; 
     right: 380px; 
     top: -250px; 
 }
+*/ 
 
-/*.ucb-3 { 
+.ucb-3 { 
     position: relative; 
     left: 385px; 
     top: 200px; 
 }
-*/ 
 
+/* 
 .ucb-3 { 
     position:relative; 
     left: 385px; 
     bottom: 350px; 
 }
+*/
 .ucb-4 { 
     position: relative; 
     bottom: 850px; 
@@ -427,19 +429,20 @@ section {
     padding: 15px; 
 }
 
-/*.afx-2 { 
+.afx-2 { 
     position: relative; 
     left: 135px; 
     bottom: 700px; 
 }
-*/ 
 
-.afx-2 { 
+
+/* .afx-2 { 
     position:relative; 
     left: 135px; 
     bottom: -100px; 
     z-index: 0;
 }
+*/
 .afx-1 { 
     position: relative; 
     top: 150px; 
@@ -581,33 +584,35 @@ section {
     width: 430px;  
 }
 
-/*.best-2 { 
+.best-2 { 
     position: relative; 
     left: 257px; 
     top: 1650px; 
 }
-*/
 
-.best-2 { 
+
+/* .best-2 { 
     position: relative; 
     left: 257px; 
     bottom: 100px;
-}
-
-/*.best-3 { 
-    position: relative; 
-    right: 257px; 
-    top: 1500px;  
-    z-index: 1;
 }
 */
 
 .best-3 { 
     position: relative; 
     right: 257px; 
+    top: 1500px;  
+    z-index: 1;
+}
+
+
+/* .best-3 { 
+    position: relative; 
+    right: 257px; 
     bottom: 420px; 
     z-index:1; 
 }
+*/
 
 .best-4 { 
     position: relative; 
@@ -616,20 +621,21 @@ section {
     z-index: 0;
 }
 
-/*.best-5 { 
+.best-5 { 
     position: relative; 
     left: 257px; 
     top: 1850px; 
     z-index: 1;
 }
-*/ 
 
-.best-5 { 
+
+/* .best-5 { 
     position:relative; 
     left: 257px; 
     bottom: 550px; 
     z-index: 1; 
 }
+*/ 
 .best-6 { 
     position: relative; 
     right: 120px; 
