@@ -162,16 +162,39 @@
     <script src ="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
 
     <script> 
+        //dark mode
+        let darkMode = localStorage.getItem('darkMode'); 
         const checkbox = document.getElementById('checkbox'); 
 
+        const enableDarkMode = () => { 
+            document.body.classList.add('dark'); 
+            localStorage.setItem("darkMode", "enabled");
+        }; 
+
+        const disableDarkMode = () => { 
+            document.body.classList.remove('dark'); 
+            localStorage.setItem("darkMode", null); 
+        }; 
+
+        if (darkMode === "enabled") {
+            enableDarkMode(); 
+        }
+
         checkbox.addEventListener('change', () => { 
-            document.body.classList.toggle('dark'); 
+            darkMode = localStorage.getItem("darkMode"); 
+            if (darkMode !== "enabled") { 
+                enableDarkMode(); 
+            }
+            else { 
+                disableDarkMode(); 
+            }
         }); 
 
+        //parallax 
         var rellax = new Rellax('.rellax', {
 
         callback: function(position) { 
-            
+
         }
         }); 
     </script> 
