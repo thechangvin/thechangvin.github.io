@@ -216,6 +216,9 @@ section {
     margin-left: 30px; 
 }
 
+.body3-img { 
+    position: relative; 
+}
 
 .david-1 { 
     position:relative; 
@@ -325,6 +328,10 @@ section {
     margin-top: 80px;
 }
 
+.body2-img-2018 { 
+    position: relative; 
+}
+
 .ucb-1 { 
     position: relative; 
     left: 200px; 
@@ -429,6 +436,9 @@ section {
     padding: 15px; 
 }
 
+.body5-img-2018 { 
+    position: relative; 
+}
 .afx-2 { 
     position: relative; 
     left: 135px; 
@@ -577,6 +587,11 @@ section {
     padding: 10px; 
     margin: 30px;
 }
+
+.body4-img-2019 { 
+    position: relative; 
+}
+
 
 .body4-text-2019 { 
     text-align: center;
