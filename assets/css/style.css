@@ -20,7 +20,7 @@ section h1 {
 }
 
 a { 
-    transition: color 1s; 
+    transition: color .5s; 
 }
 
 a:hover { 
@@ -30,6 +30,10 @@ a:hover {
 a:active, a:visited, a:link { 
     text-decoration: none; 
     color: inherit; 
+}
+
+section h1:hover { 
+    color: rgb(168, 168, 168); 
 }
 
 section { 
