@@ -330,17 +330,19 @@ section {
 
 .body2-img-2018 { 
     position: relative; 
+    height: 520px; 
 }
 
+
 .ucb-1 { 
-    position: relative; 
-    left: 200px; 
+    position: absolute; 
+    left: -100px; 
 }
 
 .ucb-2 { 
-    position: relative; 
-    right: 380px; 
-    top: 200px; 
+    position: absolute; 
+    top: 350px; 
+    right: 186px; 
 }
 
 
@@ -352,9 +354,10 @@ section {
 */ 
 
 .ucb-3 { 
-    position: relative; 
-    left: 385px; 
-    top: 200px; 
+    position: absolute; 
+    top: 630px; 
+    left: 200px; 
+
 }
 
 /* 
@@ -365,14 +368,15 @@ section {
 }
 */
 .ucb-4 { 
-    position: relative; 
-    bottom: 850px; 
+    position: absolute; 
+    left: -134px;
+    bottom: 150px;  
 }
 
 .ucb-5 { 
-    position: relative; 
-    bottom: 800px; 
-    right: 270px; 
+    position: absolute; 
+    right: 20px; 
+    bottom: 30px; 
 }
 
 .body-3-2018 { 
@@ -438,11 +442,12 @@ section {
 
 .body5-img-2018 { 
     position: relative; 
+    height: 730px; 
 }
 .afx-2 { 
-    position: relative; 
+    position: absolute; 
     left: 135px; 
-    bottom: 700px; 
+    bottom: 680px; 
 }
 
 
